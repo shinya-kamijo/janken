@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/start_jyanken.css">
+    <link rel="shortcut icon" href="img/boll.jpg">
+</head>
+
+
+<body>
+    <title>ポケ</title>
+    <!-- 
+    <audio id="msc" controls loop> ▼
+        <source src="mp3/last.mp3">
+    </audio> -->
+
+
+
+    <name="monster" onclick="ring_001();" value="声を出す">
+        <h1>じゃんけんげーむ
+        </h1>
+
+        <label>ON<audio id="001" preload=" auto">
+                <source src="mp3/last.mp3" type="audio/mp3"></audio></label>
+
+        <div id="game">
+            <section class="pane hidden" id="enemy"></section>
+            <section class="pane" id="field"></section>
+            <section class="pane" id="player"></section>
+            <section class="gameover"></section>
+            <section id="introduction">
+
+
+                <div class="">
+                    <ul style="list-style:none;">
+                        <h3><u> 説明書</u></h3>
+                        <li>▶ 手持ちキャラを駆使して相手より多く勝ちましょう</li>
+                        <li>▶ ゲーム開始時点で自分の体力値と相手の体力値は同じです</li>
+                        <li>▶ 先に戦闘不能にした方が勝ち</li>
+                    </ul>
+                </div>
+                <form class="center">
+                    <ul class="line" style="list-style:none;">
+                        <h3><u> 初期手持ち数</h3></u>
+                        <li><input type="number" name="length" value="6" min="5" ,max="20"></li>
+                    </ul>
+
+                    <detail>
+                        <summary class="lose"> </summary>
+                        <ul class="line" style="list-style:none;">
+                            <h3><u> 基本設定</h3></u>
+                            <ul style="list-style:none;">
+                                <li>▶負けた側は1ずつ体力が減る</li>
+                                <li>▶ピンチンの時は回復の道具を使おう</li>
+                            </ul>
+                            <h3><u> 判定方法</h3></u>
+                            <ul style="list-style:none;">
+                                <li>▶　〇 グー ＞ ✖ チョキ </li>
+                                <li>▶　〇 チョキ ＞ ✖ パー </li>
+                                <li>▶　〇 パー ＞ ✖ グー </li>
+                            </ul>
+                    </detail>
+
+                    <p> <button class="btn"><a href="jyanken.html">ゲームスタート</a></button></p>
+                </form>
+
+            </section>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script type="text/javascript">
+                function ring_001() {
+                    document.getElementById("001").play();
+                }
+            </script>
+</body>
+
+</html>

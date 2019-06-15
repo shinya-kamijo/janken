@@ -1,0 +1,69 @@
+/* #ここから本文に執着 */
+/* body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: gray;
+ 
+} */
+
+
+.contain {
+	margin: 10px 100px 10px 500px;
+	text-align: center;
+}
+.position {
+ text-align: center;
+}
+.potion_inner {
+ text-align: left;
+ display: inline-block;
+}
+
+main {
+
+ background:url(../img/filed.png); 
+  background-repeat: no-repeat;
+    background-size:cover;
+	background-position:center;
+    display: flex;
+	justify-content:center;
+  align-items:center;
+  color: white
+}
+
+
+.btn {
+ float: right
+}
+
+/* #ここから下に対戦ゲームを記載していく
+.main { 
+   display: flex;
+	margin:0 0 70px
+}
+.count{
+flex-direction: column;
+}
+.gu_btn {
+  width:30%;
+  height:70%; 
+}
+.cho_btn {
+  width:30%;
+  height:70%; 
+}
+.par_btn {
+  width:30%;
+  height:70%; 
+}
+
+
+.momnster {
+  float: right;
+    display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.btn {
+  float: left;
+} */

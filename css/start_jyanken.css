@@ -1,0 +1,79 @@
+.btn {
+  margin: 1em 0;
+  border: 1px solid #4169e1;
+  border-color: #73a839 #73a839 #4c6f26;
+  border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
+  padding: 5px 20px;
+
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #98e146;
+  background-image: -webkit-linear-gradient(top, #80bb3f, #73a839);
+  background-image: -moz-linear-gradient(top, #80bb3f, #73a839);
+  background-image: -o-linear-gradient(top, #80bb3f, #73a839);
+  background-image: linear-gradient(to bottom, #80bb3f, #73a839);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+ 
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #659b2b;
+  background-position: 0 -15px;
+  color: #ffffff;
+  -webkit-transition: background-position .1s linear;
+  -moz-transition: background-position .1s linear;
+  -o-transition: background-position .1s linear;
+  transition: background-position .1s linear;
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+ 
+
+ /* #この下から準備 */
+body {
+  background-image:url(../img/game.png);  
+  background-repeat: no-repeat;
+    background-size:cover;
+	background-position:center;
+    display: flex;
+	justify-content:center;
+  align-items:center;
+  color: white
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
